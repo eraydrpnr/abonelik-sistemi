@@ -68,4 +68,4 @@ E-posta Adresi: <input  type="email"  name="email"  required>
 ve editlenmesi gereken yerleri tüm kodları inceleyerek detaylı görebilirsin.
 
 
-
+[![Discord Presence](https://lanyard.cnrad.dev/api/340159937663598593)](https://discord.com/users/340159937663598593)
