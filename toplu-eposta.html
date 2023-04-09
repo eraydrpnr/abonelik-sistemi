@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-posta Gönderimi</title>
+	<style>
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+textarea {
+  height: 200px;
+}
+
+	</style>
+</head>
+<body>
+	<form action="send-email.php" method="post">
+		<label for="konu">Konu:</label><br>
+		<input type="text" id="konu" name="konu" required><br>
+		<label for="mesaj">Mesaj:</label><br>
+		<textarea id="mesaj" name="mesaj" required></textarea><br>
+		<input type="submit" value="Toplu Gönder">
+	</form>
+</body>
+</html>
